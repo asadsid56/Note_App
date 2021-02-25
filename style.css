@@ -1,0 +1,16 @@
+.fa-edit:before {
+    content: "\f044";
+    position: absolute;
+    left: 415px;
+    top: 20px;
+    color: rgb(202, 202, 53);
+    cursor: pointer;
+}
+
+div .cards{
+    transition: transform 450ms;
+} 
+div .cards:hover {
+    transform: scale(1.05);
+} 
+
